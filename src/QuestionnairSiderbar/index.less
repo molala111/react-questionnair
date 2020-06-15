@@ -64,6 +64,10 @@
 	align-items: center;
 	position: relative;
 }
+.siderbar-menu-editors-active {
+	border: 1px solid #FF6600;
+	color: #FF6600;
+}
 .siderbar-menu-summary {
 	width: 100%;
 	height: 36px;
@@ -71,7 +75,8 @@
 	padding-left: 30px;
 	padding-right: 10px;
 	margin: 0 auto;
-	cursor: pointer;
+	border: none;
+	cursor: move;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -87,4 +92,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+.summary-drag-move-item {
+	background: rgba(245,245,245,0.50)
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'libs/Button';
+import Button from '../Button';
 import './index.less'
 
 class Dialog extends React.PureComponent {
@@ -38,7 +38,7 @@ class Dialog extends React.PureComponent {
       title,
       children,
       onCancel,
-      onConfirm,
+      onConfirm
     } = this.props;
     const {
       visible,

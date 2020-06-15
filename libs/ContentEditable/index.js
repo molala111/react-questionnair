@@ -64,7 +64,7 @@ export default class ContentEditable extends React.Component {
       html,
       style,
       onKeyPress,
-      ...otherProps,
+      ...otherProps
     } = this.props;
 
     return (

@@ -24,7 +24,7 @@ class Button extends React.PureComponent {
       disabled,
       children,
       onClick,
-      ...otherProps,
+      ...otherProps
     } = this.props;
     const buttonType = type ? `wowjoy-button__${type}` : '';
     const buttonSize = size ? `wowjoy-button__${size}` : '';

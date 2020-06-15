@@ -72,7 +72,7 @@ class Input extends React.PureComponent {
             <input {...otherProps}
               type={type || 'text'}
               name={name}
-              maxLength={maxLength}
+              maxLength={maxLength ? maxLength :100}
               disabled={disabled}
               onChange={this.handleChange}
               onBlur={this.handleBlur}

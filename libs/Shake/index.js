@@ -26,12 +26,7 @@ class ShakeTransition extends React.PureComponent {
   }
 
   render() {
-    const {
-      children,
-    } = this.props;
-    const {
-      shake,
-    } = this.state;
+    const { shake } = this.state;
     return (
       <div className={`shake-transition ${shake ? 'shaked' : ''}`}>
         {this.props.children}
